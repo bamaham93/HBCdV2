@@ -55,7 +55,8 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             'HBCdWebApp/templates',  # For Dev
-            'HBCdWebapp/HBCdWebApp/templates',  # For Deployment
+            # 'HBCdWebapp/HBCdWebApp/templates',  # For Deployment?
+            './HBCdWebApp/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
