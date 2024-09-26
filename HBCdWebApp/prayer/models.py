@@ -10,6 +10,7 @@ class Request(models.Model):
         ("FI", "Financial"),
         ("FA", "Family"),
         ("SP", "Spiritual"),
+        ("OT", "Other"),
     ]
 
     first_name = models.CharField(max_length=100, null=True, blank=True,)
