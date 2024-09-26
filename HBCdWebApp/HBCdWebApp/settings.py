@@ -25,11 +25,10 @@ SECRET_KEY = 'django-insecure-ow=70h##=w!#pu#^&wyg&kxt#kq24^7ej2ei_!0vx*x-x!&w1i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '172.105.151.61']
+ALLOWED_HOSTS = ['localhost', '172.105.151.61', 'https://172-105-151-61.ip.linodeusercontent.com/']
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'prayer',
     'django.contrib.admin',
