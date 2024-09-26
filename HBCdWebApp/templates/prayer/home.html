@@ -7,6 +7,24 @@
 
 {% block section1 %}
     <h1>Harvest Baptist Church</h1>
+
+<table class="table table-striped table-hover table-borderless table-sm .table-dark">
+<tr>
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Answered?</th>
+  <th>Description</th>
+</tr>
+{% for item in requests %}
+<tr>
+  <td>{{ item.first_name }}</td>
+  <td>{{ item.last_name }}</td>
+  <td>{{ item.is_answered }}</td>
+  <td>{{ item.description }}</td>
+</tr>
+{% endfor %}
+</table>
+
 {% endblock %}
 
 {% block form_modal %}
