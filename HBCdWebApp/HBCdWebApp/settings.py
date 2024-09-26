@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
@@ -25,8 +24,8 @@ SECRET_KEY = 'django-insecure-ow=70h##=w!#pu#^&wyg&kxt#kq24^7ej2ei_!0vx*x-x!&w1i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '172.105.151.61', 'https://172-105-151-61.ip.linodeusercontent.com/', 'Bamaham93.pythonanywhere.com']
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '172.105.151.61', 'https://172-105-151-61.ip.linodeusercontent.com/',
+                 'Bamaham93.pythonanywhere.com']
 
 # Application definition
 INSTALLED_APPS = [
@@ -54,7 +53,10 @@ ROOT_URLCONF = 'HBCdWebApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['HBCdWebApp/templates'],
+        'DIRS': [
+            'HBCdWebApp/templates',  # For Dev
+            'HBCdWebapp/HBCdWebApp/templates',  # For Deployment
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,7 +71,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'HBCdWebApp.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
@@ -79,7 +80,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -99,7 +99,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
@@ -110,7 +109,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
