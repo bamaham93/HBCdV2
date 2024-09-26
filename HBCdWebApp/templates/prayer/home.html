@@ -1,7 +1,36 @@
 {% extends '../base.html' %}
 
+{% block nav %}
+    {% load static %}
+    <img src="{% static 'img/hbc-d.jpg' %}" alt="My image">
+{% endblock %}
+
 {% block section1 %}
-{% load static %}
-<img src="{% static 'img/hbc-d.jpg' %}" alt="My image">
     <h1>Harvest Baptist Church</h1>
+{% endblock %}
+
+{% block form_modal %}
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Add Prayer Request
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Prayer Request</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{ form }} <!-- This is the Django form to be rendered -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+        <a class="btn btn-success" href="{% url 'home' %}">Save</a> <!-- Links to home page -->
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
