@@ -56,7 +56,7 @@ TEMPLATES = [
         'DIRS': [
             'HBCdWebApp/templates',  # For Dev
             # 'HBCdWebapp/HBCdWebApp/templates',  # For Deployment?
-            'hbcv2/HBCdWebApp/templates',
+            'hbcv2/HBCdV2/HBCdWebApp/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
