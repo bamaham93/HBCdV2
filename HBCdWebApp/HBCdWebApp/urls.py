@@ -23,5 +23,4 @@ urlpatterns = [
     path('prayer/', views.home, name='home'),
     path('prayer/home', views.home, name='home'),
     path('', views.home, name='home'),
-#     TODO; Add page to accept prayer requests via form, or else use a modal
 ]
