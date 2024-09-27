@@ -18,8 +18,7 @@ def home(request):
         print('I got a postcard!')
 
     if request.user.is_authenticated:
-        print('I know me!')
-
+        # print('I know me!')
         context['requests'] = Request.objects.all()
 
     return render(request, 'prayer/home.html', context)
