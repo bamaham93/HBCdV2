@@ -6,6 +6,9 @@ from .forms import LoginForm
 
 def sign_in(request):
     if request.method == 'GET':
+        if request.user.is_authenticated:
+            return redirect('posts')
+
         form = LoginForm()
         return render(request, 'users/login.html', {'form': form})
 
@@ -19,9 +22,9 @@ def sign_in(request):
             if user:
                 login(request, user)
                 messages.success(request, f'Hi {username.title()}, welcome back!')
-                return redirect('home')
+                return redirect('posts')
 
-        # form is not valid or user is not authenticated
+        # either form not valid or user is not authenticated
         messages.error(request, f'Invalid username or password')
         return render(request, 'users/login.html', {'form': form})
 
