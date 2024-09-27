@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', '172.105.151.61', 'https://172-105-15
 
 # Application definition
 INSTALLED_APPS = [
+    'users',
     'prayer',
     'django.contrib.admin',
     'django.contrib.auth',

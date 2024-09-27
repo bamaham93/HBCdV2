@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Created superuser. Added model, form for prayer requests.">
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added table to home page to display requests.">
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HBCdWebApp/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bamaham93&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bamaham93/HBCdV2.git&quot;,
+    &quot;accountId&quot;: &quot;b6d4ab4c-a9c4-4d6d-992e-5cba0dd21c1d&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/urls.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -37,21 +63,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Make Migrations.executor": "Run",
-    "Python.Migrate.executor": "Run",
-    "Python.Run App.executor": "Run",
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bamah/PycharmProjects/HBCDawsonvillePrayerApp/HBCdWebApp/manage.py",
-    "settings.editor.selected.configurable": "preferences.toDoOptions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Make Migrations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Migrate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Run App.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Run Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bamah/PycharmProjects/HBCDawsonvillePrayerApp/HBCdWebApp/manage.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bamah\PycharmProjects\HBCDawsonvillePrayerApp\HBCdWebApp\static\img" />
@@ -135,9 +162,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Run Tests" type="PythonConfigurationType" factoryName="Python">
+      <module name="HBCDawsonvillePrayerApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (HBCDawsonvillePrayerApp)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\bamah\PycharmProjects\HBCDawsonvillePrayerApp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HBCdWebApp/manage.py" />
+      <option name="PARAMETERS" value="test HBCdWebApp/" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Make Migrations" />
       <item itemvalue="Python.Migrate" />
+      <item itemvalue="Python.Run Tests" />
       <item itemvalue="Python.Run App" />
     </list>
   </component>
@@ -173,7 +224,119 @@
       <option name="project" value="LOCAL" />
       <updated>1727322035144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Prayer request model.">
+      <option name="closed" value="true" />
+      <created>1727322095995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727322095995</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added IP address for Linode.">
+      <option name="closed" value="true" />
+      <created>1727324033371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727324033371</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added 'other' option to request classification.">
+      <option name="closed" value="true" />
+      <created>1727326205127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727326205127</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added IP &amp; URL to allowed_hosts.">
+      <option name="closed" value="true" />
+      <created>1727327437302</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727327437302</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added requirements.txt file to project.">
+      <option name="closed" value="true" />
+      <created>1727331225855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727331225855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added a test for testing.">
+      <option name="closed" value="true" />
+      <created>1727331827044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727331827044</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Removed Pytest based GitHub Actions">
+      <option name="closed" value="true" />
+      <created>1727331970550</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727331970550</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Configuration to deploy.">
+      <option name="closed" value="true" />
+      <created>1727333512090</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727333512090</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Configuration to deploy. Added hosting for Pythonanywhere.com">
+      <option name="closed" value="true" />
+      <created>1727333604360</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727333604360</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added templates path for deployed operation.">
+      <option name="closed" value="true" />
+      <created>1727333775029</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727333775029</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added templates path for deployed operation.">
+      <option name="closed" value="true" />
+      <created>1727333927291</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727333927291</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added templates path for deployed operation.">
+      <option name="closed" value="true" />
+      <created>1727334022385</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727334022385</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added templates path for deployed operation.">
+      <option name="closed" value="true" />
+      <created>1727334276661</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727334276661</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added table to home page to display requests.">
+      <option name="closed" value="true" />
+      <created>1727337094271</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727337094271</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +354,17 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial. Created prayer app. Still needs auth." />
     <MESSAGE value="Created superuser. Added model, form for prayer requests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created superuser. Added model, form for prayer requests." />
+    <MESSAGE value="Added Prayer request model." />
+    <MESSAGE value="Added IP address for Linode." />
+    <MESSAGE value="Added 'other' option to request classification." />
+    <MESSAGE value="Added IP &amp; URL to allowed_hosts." />
+    <MESSAGE value="Added requirements.txt file to project." />
+    <MESSAGE value="Added a test for testing." />
+    <MESSAGE value="Removed Pytest based GitHub Actions" />
+    <MESSAGE value="Configuration to deploy." />
+    <MESSAGE value="Configuration to deploy. Added hosting for Pythonanywhere.com" />
+    <MESSAGE value="Added templates path for deployed operation." />
+    <MESSAGE value="Added table to home page to display requests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added table to home page to display requests." />
   </component>
 </project>

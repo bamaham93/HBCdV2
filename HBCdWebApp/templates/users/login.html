@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block nav %}
+
+<h1>Users</h1>
+{% extends 'base.html' %}
+    <form method="POST" novalidate>
+        {% csrf_token %}
+        <h2>Login</h2>
+        {{form.as_p}}
+        <input type="submit" value="Login" />
+    </form>
+{% endblock %}
+
+
+
+{% block section1 %}
+
+
+
+{% endblock %}
