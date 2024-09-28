@@ -9,10 +9,9 @@ class TestUsersApp(TestCase):
     """
     """
 
-    def SetUp(self):
-        """
-        """
-        self.c = Client()
+    # def SetUp(self):
+    #     """
+    #     """
 
     @classmethod
     def setUpTestData(cls):
@@ -61,3 +60,22 @@ class TestUsersApp(TestCase):
         # Tests that the newly created user can be recalled from the DB.
         # If not, results in a failed test.
         User.objects.get(username='bamainthewind')
+
+    def test_login_page(self):
+        """
+        """
+
+        c = self.client
+        url = '/auth/login'
+        response = c.get(url)
+
+        # TODO Check this response is correct.
+        self.assertEqual(response.status_code, 301)
+        self.assertTemplateUsed('users/login.html')
+
+    def test_logout_page(self):
+        c = self.client
+        url = '/auth/logout'
+        response = c.get(url)
+        self.assertEqual(response.status_code, 301)
+        self.assertTemplateUsed('/auth/logout.html')
