@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 from django.contrib.auth import login, logout, authenticate
 from .forms import LoginForm, UserCreationForm
@@ -49,7 +49,10 @@ def signup(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
         if form.is_valid():
-            print('form is valid!')
             form.save()
-            redirect('/home')
+            print('Hello!')
+            redirect('/')
+            print('Goodbye!')
+        # else:
+            # print(form.errors)  # Check errors when testing as needed.
     return render(request, "users/signup.html", context)

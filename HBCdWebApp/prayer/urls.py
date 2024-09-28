@@ -5,6 +5,6 @@ from prayer import views
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('index', views.home, name='home'),
-    path('', views.home, name='home'),
+    path('index', views.home, name='home1'),
+    path('', views.home, name='home2'),
 ]
