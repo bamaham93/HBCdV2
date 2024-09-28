@@ -50,16 +50,14 @@ class TestUsersApp(TestCase):
         url = '/auth/signup/'
 
         # Checks GET requests.
-        # response = c.get(url)
-        # self.assertEqual(response.status_code, 200)
-        # self.assertTemplateUsed('users/signup.html')
-
-        # Checks POST requests
-        response1 = c.post(url, {'username': 'bamainthewind', 'email': 'bamaham5009@gmail.com', 'password1': 'Secret!Inthebeginning', 'password2': 'Secret!Inthebeginning'})
-
-        # # Todo Should be 302, not the current 200. Why? Fix test
-        # self.assertEqual(response1.status_code, 302)
+        response = c.get(url, follow=True)
+        self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed('users/signup.html')
 
-        # this_user = User.objects.get()
-        # print(this_user)
+        # Checks POST requests
+        response1 = c.post(url, {'username': 'bamainthewind', 'email': 'bamaham5009@gmail.com', 'password1': 'Secret!Inthebeginning', 'password2': 'Secret!Inthebeginning'}, follow=False)
+        self.assertEqual(response1.status_code, 302)
+
+        # Tests that the newly created user can be recalled from the DB.
+        # If not, results in a failed test.
+        User.objects.get(username='bamainthewind')
