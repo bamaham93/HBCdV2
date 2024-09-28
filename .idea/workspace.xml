@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Changed the visible fields in the Django admin table for Requests.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/users/login.html" afterDir="false" />
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Fixed the login page to redirect to home, handle successful logins.">
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -366,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727492449259</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fixed the login page to redirect to home, handle successful logins.">
+      <option name="closed" value="true" />
+      <created>1727493330603</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727493330603</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,6 +402,7 @@
     <MESSAGE value="Added users app, signin and logout pages, forms, and urls." />
     <MESSAGE value="Added POST request for prayer request form." />
     <MESSAGE value="Changed the visible fields in the Django admin table for Requests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the visible fields in the Django admin table for Requests." />
+    <MESSAGE value="Fixed the login page to redirect to home, handle successful logins." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the login page to redirect to home, handle successful logins." />
   </component>
 </project>
