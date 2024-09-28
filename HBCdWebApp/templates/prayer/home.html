@@ -1,37 +1,67 @@
 {% extends '../base.html' %}
 
 {% block nav %}
-    {% load static %}
-    <img src="{% static 'img/hbc-d.jpg' %}" alt="My image">
+
 {% endblock %}
 
 {% block section1 %}
     <h1>Harvest Baptist Church</h1>
 
-<table class="table table-striped table-hover table-borderless table-sm .table-dark">
-<tr>
-  <th>First Name</th>
-  <th>Last Name</th>
-  <th>Answered?</th>
-  <th>Description</th>
-</tr>
-{% for item in requests %}
-<tr>
-  <td>{{ item.first_name }}</td>
-  <td>{{ item.last_name }}</td>
-  <td>{{ item.is_answered }}</td>
-  <td>{{ item.description }}</td>
-</tr>
-{% endfor %}
-</table>
+<!--<table class="table table-striped table-hover table-borderless table-sm .table-dark">-->
+<!--<tr>-->
+<!--  <th>First Name</th>-->
+<!--  <th>Last Name</th>-->
+<!--  <th>Answered?</th>-->
+<!--  <th>Description</th>-->
+<!--</tr>-->
+<!--{% for item in requests %}-->
+<!--<tr>-->
+<!--  <td>{{ item.first_name }}</td>-->
+<!--  <td>{{ item.last_name }}</td>-->
+<!--  <td>{{ item.is_answered }}</td>-->
+<!--  <td>{{ item.description }}</td>-->
+<!--</tr>-->
+<!--{% endfor %}-->
+<!--</table>-->
+
+<div id="carouselExample" class="border border-warning">
+<!--  <div class="carousel-inner d-flex flex-row border border-primary">-->
+      <div class="carousel-inner d-lg-flex  border-primary">
+    {% for item in requests %}
+       <div class="card w-50 m-2 border border-danger d-md-flex">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+    {% endfor %}
+<!--    <div class="carousel-item">-->
+<!--      <img src="https://images.unsplash.com/photo-1495552665515-46e119a10545?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">-->
+<!--    </div>-->
+<!--    <div class="carousel-item">-->
+<!--      <img src="https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">-->
+<!--    </div>-->
+<!--  </div>-->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 {% endblock %}
 
 {% block form_modal %}
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Add Prayer Request
-</button>
+  <!-- Button trigger modal -->
+<div class="border d-flex justify-content-center">
+    <button type="button" class="btn btn-lg btn-success p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Add Prayer Request
+    </button>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
