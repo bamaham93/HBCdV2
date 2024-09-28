@@ -7,8 +7,7 @@ from .forms import LoginForm, UserCreationForm
 def sign_in(request):
     if request.method == 'GET':
         if request.user.is_authenticated:
-            # return redirect('home')
-            pass
+            return redirect('home')
 
         form = LoginForm()
         return render(request, 'users/login.html', {'form': form})

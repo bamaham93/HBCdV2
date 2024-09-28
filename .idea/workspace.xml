@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Fixed broken redirect; added a return statement to prayer/views.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/urls.py" afterDir="false" />
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added /home as an endpoint/">
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -404,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727502391284</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added /home as an endpoint/">
+      <option name="closed" value="true" />
+      <created>1727502774102</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727502774102</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,6 +447,7 @@
     <MESSAGE value="Added user account signup form and handling." />
     <MESSAGE value="Added tests for Signup page." />
     <MESSAGE value="Fixed broken redirect; added a return statement to prayer/views.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed broken redirect; added a return statement to prayer/views.py" />
+    <MESSAGE value="Added /home as an endpoint/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added /home as an endpoint/" />
   </component>
 </project>
