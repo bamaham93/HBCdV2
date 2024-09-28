@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import login, logout, authenticate
-from .forms import LoginForm
+from .forms import LoginForm, UserCreationForm
 
 
 def sign_in(request):
@@ -38,3 +38,18 @@ def sign_out(request):
     logout(request)
     messages.success(request,f'You have been logged out.')
     return redirect('login')
+
+def signup(request):
+    """
+    :param requests:
+    :return:
+    """
+    context = {'form': UserCreationForm()}
+
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            print('form is valid!')
+            form.save()
+            redirect('/home')
+    return render(request, "users/signup.html", context)
