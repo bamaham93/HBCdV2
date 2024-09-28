@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Reformatted files.">
-      <change afterPath="$PROJECT_DIR$/HBCdWebApp/templates/image.html" afterDir="false" />
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Changed layout via Bootstram.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -492,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727506852037</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Changed layout via Bootstram.">
+      <option name="closed" value="true" />
+      <created>1727512285810</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1727512285810</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +513,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Created superuser. Added model, form for prayer requests." />
     <MESSAGE value="Added Prayer request model." />
     <MESSAGE value="Added IP address for Linode." />
     <MESSAGE value="Added 'other' option to request classification." />
@@ -533,6 +537,7 @@
     <MESSAGE value="Fixed redirects after login, logout, signout." />
     <MESSAGE value="Added basic page testing re: HTTP responses and templates used." />
     <MESSAGE value="Reformatted files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformatted files." />
+    <MESSAGE value="Changed layout via Bootstram." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed layout via Bootstram." />
   </component>
 </project>

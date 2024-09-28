@@ -24,15 +24,23 @@
 <!--{% endfor %}-->
 <!--</table>-->
 
-<div id="carouselExample" class="border border-warning">
+<div id="carouselExample" class="border-warning">
 <!--  <div class="carousel-inner d-flex flex-row border border-primary">-->
-      <div class="carousel-inner d-lg-flex  border-primary">
+      <div class="carousel-inner d-sm-flex  border border-primary justify-content-sm-evenly align-self-baseline">
     {% for item in requests %}
-       <div class="card w-50 m-2 border border-danger d-md-flex">
+       <div class="card w-50 m-1 border border-danger">
+           <img class="card-img-top object-fit-contain border rounded" src="https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Button</a>
+          <h5 class="card-title">{{ item.first_name }} {{ item.last_name }}</h5>
+          <p class="card-text">{{ item.description }}</p>
+            <p>
+            {% if item.is_answered == True %}
+                Answered
+            {% else %}
+                Not Answered
+            {% endif %}
+            </p>
+<!--          <a href="#" class="btn btn-primary">Button</a>-->
         </div>
       </div>
     {% endfor %}
