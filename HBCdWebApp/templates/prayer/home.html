@@ -42,11 +42,15 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        {{ form }} <!-- This is the Django form to be rendered -->
+        <form action='/' method='POST'>
+          {% csrf_token %}
+          {{ form.as_p}} <!-- This is the Django form to be rendered -->
+          <input type="submit" class="btn btn-success">
+        </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
-        <a class="btn btn-success" href="{% url 'home' %}">Save</a> <!-- Links to home page -->
+<!--        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>-->
+<!--        <a class="btn btn-success" href="/">Save</a> &lt;!&ndash; Links to home page &ndash;&gt;-->
       </div>
     </div>
   </div>

@@ -15,7 +15,11 @@ def home(request):
     }
 
     if request.method == 'POST':
+        form = RequestForm(request.POST)
         print('I got a postcard!')
+        if form.is_valid():
+            print('The form is formed!')
+            print(request.POST)
 
     if request.user.is_authenticated:
         # print('I know me!')
