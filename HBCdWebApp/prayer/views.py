@@ -20,6 +20,8 @@ def home(request):
         if form.is_valid():
             print('The form is formed!')
             print(request.POST)
+            form.save()
+            print('Form is saved! Hallelujah!')
 
     if request.user.is_authenticated:
         # print('I know me!')
