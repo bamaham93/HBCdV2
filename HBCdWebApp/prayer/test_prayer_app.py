@@ -17,6 +17,7 @@ class TestRequestsApp(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed('home.html')
 
+        # For regression testing; May be removed later?
         self.assertContains(response, 'Harvest Baptist Church')
         self.assertContains(response, 'First Name')
         self.assertContains(response, 'Last Name')

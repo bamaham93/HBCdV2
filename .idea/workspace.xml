@@ -7,8 +7,6 @@
     <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added basic page testing re: HTTP responses and templates used.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/users/test_users_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/users/test_users_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727505443832</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added basic page testing re: HTTP responses and templates used.">
+      <option name="closed" value="true" />
+      <created>1727506358743</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1727506358743</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

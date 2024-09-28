@@ -5,7 +5,6 @@ from .forms import LoginForm, UserCreationForm
 
 
 def sign_in(request):
-
     if request.method == 'GET':
         if request.user.is_authenticated:
             return redirect('home')
@@ -37,8 +36,9 @@ def sign_out(request):
     :return:
     """
     logout(request)
-    messages.success(request,f'You have been logged out.')
+    messages.success(request, f'You have been logged out.')
     return redirect('home')
+
 
 def signup(request):
     """
@@ -56,5 +56,5 @@ def signup(request):
             form.save()
             return redirect('/')
         # else:
-            # print(form.errors)  # Check errors when testing as needed.
+        # print(form.errors)  # Check errors when testing as needed.
     return render(request, "users/signup.html", context)
