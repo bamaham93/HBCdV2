@@ -69,7 +69,6 @@ class TestUsersApp(TestCase):
         url = '/auth/login'
         response = c.get(url)
 
-        # TODO Check this response is correct.
         self.assertEqual(response.status_code, 301)
         self.assertTemplateUsed('users/login.html')
 
