@@ -7,7 +7,9 @@
     <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Changed layout via Bootstrap. Added card design instead of carousel for now.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/users/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -505,7 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727513719174</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Changed layout via Bootstrap. Added card design instead of carousel for now.">
+      <option name="closed" value="true" />
+      <created>1727514249146</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1727514249146</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Changed layout via Bootstrap. Added card design instead of carousel for now.">
+      <option name="closed" value="true" />
+      <created>1727514500620</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1727514500620</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

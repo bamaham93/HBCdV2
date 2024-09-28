@@ -7,6 +7,10 @@
 {% block section1 %}
     <h1>Harvest Baptist Church</h1>
 
+{% if user.is_authenticated != True %}
+    <h2>You are not <a href="{% url 'login' %}">logged in</a>!</h2>
+{% endif %}
+
 <!--<table class="table table-striped table-hover table-borderless table-sm .table-dark">-->
 <!--<tr>-->
 <!--  <th>First Name</th>-->

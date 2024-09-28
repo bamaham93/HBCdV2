@@ -5,6 +5,7 @@
 
 {% block section1 %}
     <h1>Users</h1>
+    <h5>Don't have an account? Get one <a href="{% url 'sign_up' %}">here</a>!</h5>
     <form method="POST" novalidate>
         {% csrf_token %}
         <h2>Login</h2>
