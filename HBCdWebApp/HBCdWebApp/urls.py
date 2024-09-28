@@ -24,5 +24,5 @@ urlpatterns = [
     path('prayer/', views.home, name='home'),
     path('prayer/home', views.home, name='home'),
     path('', views.home, name='home'),
-    path('auth/',include('users.urls')),
+    path('auth/', include('users.urls')),
 ]

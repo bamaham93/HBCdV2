@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added basic page testing re: HTTP responses and templates used.">
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Reformatted files.">
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/urls.py" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -66,6 +73,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;
   }
 }</component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\bamah\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="469256bb-8249-4da8-aabb-8509988d4e68" />
+        <option name="reportName" value="HBCDawsonvillePrayerApp/qodana/2024-09-28" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\bamah\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="469256bb-8249-4da8-aabb-8509988d4e68" reportId="HBCDawsonvillePrayerApp/qodana/2024-09-28" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bamah\PycharmProjects\HBCDawsonvillePrayerApp\HBCdWebApp\static\img" />
@@ -451,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727506358743</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Reformatted files.">
+      <option name="closed" value="true" />
+      <created>1727506434755</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1727506434755</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial. Created prayer app. Still needs auth." />
     <MESSAGE value="Created superuser. Added model, form for prayer requests." />
     <MESSAGE value="Added Prayer request model." />
     <MESSAGE value="Added IP address for Linode." />
@@ -492,6 +523,7 @@
     <MESSAGE value="Removed comment that eliminated the redirect from auth/signin" />
     <MESSAGE value="Fixed redirects after login, logout, signout." />
     <MESSAGE value="Added basic page testing re: HTTP responses and templates used." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic page testing re: HTTP responses and templates used." />
+    <MESSAGE value="Reformatted files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatted files." />
   </component>
 </project>

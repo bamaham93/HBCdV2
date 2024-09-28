@@ -42,8 +42,6 @@ def sign_out(request):
 
 def signup(request):
     """
-    :param requests:
-    :return:
     """
     context = {'form': UserCreationForm()}
 
