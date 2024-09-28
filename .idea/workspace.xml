@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Changed layout via Bootstram.">
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Changed layout via Bootstrap. Added card design instead of carousel for now.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" afterDir="false" />
@@ -497,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727512285810</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Changed layout via Bootstrap. Added card design instead of carousel for now.">
+      <option name="closed" value="true" />
+      <created>1727513719174</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1727513719174</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,7 +521,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added Prayer request model." />
     <MESSAGE value="Added IP address for Linode." />
     <MESSAGE value="Added 'other' option to request classification." />
     <MESSAGE value="Added IP &amp; URL to allowed_hosts." />
@@ -538,6 +545,7 @@
     <MESSAGE value="Added basic page testing re: HTTP responses and templates used." />
     <MESSAGE value="Reformatted files." />
     <MESSAGE value="Changed layout via Bootstram." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed layout via Bootstram." />
+    <MESSAGE value="Changed layout via Bootstrap. Added card design instead of carousel for now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed layout via Bootstrap. Added card design instead of carousel for now." />
   </component>
 </project>
