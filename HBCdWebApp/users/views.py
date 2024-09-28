@@ -8,10 +8,7 @@ def sign_in(request):
 
     if request.method == 'GET':
         if request.user.is_authenticated:
-            print('Sign in request Welcome!!')
-            # return redirect('home')
-            print('Hello GET!')
-            pass
+            return redirect('home')
 
         form = LoginForm()
         return render(request, 'users/login.html', {'form': form})
@@ -19,7 +16,7 @@ def sign_in(request):
     elif request.method == 'POST':
         form = LoginForm(request.POST)
         if form.is_valid():
-            print('Hello POST!')
+            # print('Hello POST!')
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
             user = authenticate(request, username=username, password=password)
@@ -30,7 +27,7 @@ def sign_in(request):
 
         # either form not valid or user is not authenticated
         messages.error(request, f'Invalid username or password')
-        print('Not valid!')
+        # print('Not valid!')
         return render(request, 'users/login.html', {'form': form})
 
 
@@ -49,6 +46,9 @@ def signup(request):
     :return:
     """
     context = {'form': UserCreationForm()}
+
+    if request.user.is_authenticated:
+        return redirect('home')
 
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
