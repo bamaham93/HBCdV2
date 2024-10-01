@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Changed layout via Bootstrap. Added card design instead of carousel for now.">
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Fixed style for home.html, base.html to flex-wrap correctly.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/users/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,18 +69,6 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;
   }
 }</component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\bamah\AppData\Local\Temp\qodana_output1\qodana.sarif.json" />
-        <option name="reportGuid" value="b140e418-0743-4c58-a313-3d32ef9f24e3" />
-        <option name="reportName" value="HBCDawsonvillePrayerApp/qodana/2024-09-28" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\bamah\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="469256bb-8249-4da8-aabb-8509988d4e68" reportId="HBCDawsonvillePrayerApp/qodana/2024-09-28" />
@@ -103,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Run App">
+  <component name="RunManager" selected="Python.Run Tests">
     <configuration name="Make Migrations" type="PythonConfigurationType" factoryName="Python">
       <module name="HBCDawsonvillePrayerApp" />
       <option name="ENV_FILES" value="" />
@@ -523,7 +508,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727514500620</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Added items to gitignore.">
+      <option name="closed" value="true" />
+      <created>1727751611507</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1727751611507</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fixed style for home.html, base.html to flex-wrap correctly.">
+      <option name="closed" value="true" />
+      <created>1727752993515</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1727752993515</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,8 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added IP address for Linode." />
-    <MESSAGE value="Added 'other' option to request classification." />
     <MESSAGE value="Added IP &amp; URL to allowed_hosts." />
     <MESSAGE value="Added requirements.txt file to project." />
     <MESSAGE value="Added a test for testing." />
@@ -564,6 +563,8 @@
     <MESSAGE value="Reformatted files." />
     <MESSAGE value="Changed layout via Bootstram." />
     <MESSAGE value="Changed layout via Bootstrap. Added card design instead of carousel for now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed layout via Bootstrap. Added card design instead of carousel for now." />
+    <MESSAGE value="Added items to gitignore." />
+    <MESSAGE value="Fixed style for home.html, base.html to flex-wrap correctly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed style for home.html, base.html to flex-wrap correctly." />
   </component>
 </project>
