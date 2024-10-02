@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Fixed style for home.html, base.html to flex-wrap correctly.">
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added carousel for A/B testing.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" afterDir="false" />
     </list>
@@ -88,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Run Tests">
+  <component name="RunManager" selected="Python.Run App">
     <configuration name="Make Migrations" type="PythonConfigurationType" factoryName="Python">
       <module name="HBCDawsonvillePrayerApp" />
       <option name="ENV_FILES" value="" />
@@ -524,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727752993515</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Added carousel for A/B testing.">
+      <option name="closed" value="true" />
+      <created>1727754426492</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1727754426492</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +548,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added IP &amp; URL to allowed_hosts." />
     <MESSAGE value="Added requirements.txt file to project." />
     <MESSAGE value="Added a test for testing." />
     <MESSAGE value="Removed Pytest based GitHub Actions" />
@@ -565,6 +572,7 @@
     <MESSAGE value="Changed layout via Bootstrap. Added card design instead of carousel for now." />
     <MESSAGE value="Added items to gitignore." />
     <MESSAGE value="Fixed style for home.html, base.html to flex-wrap correctly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed style for home.html, base.html to flex-wrap correctly." />
+    <MESSAGE value="Added carousel for A/B testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added carousel for A/B testing." />
   </component>
 </project>
