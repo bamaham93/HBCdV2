@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added carousel for A/B testing.">
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added placeholder methods for various messaging services.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/test_messaging.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/test_messaging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.Make Migrations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Migrate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Run App.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Run Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bamah/PycharmProjects/HBCDawsonvillePrayerApp/HBCdWebApp/manage.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.Make Migrations.executor": "Run",
+    "Python.Migrate.executor": "Run",
+    "Python.Run App.executor": "Run",
+    "Python.Run Tests.executor": "Run",
+    "Python.Test Users App.executor": "Run",
+    "Python.manage.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bamah/PycharmProjects/HBCDawsonvillePrayerApp/HBCdWebApp/manage.py",
+    "settings.editor.selected.configurable": "preferences.toDoOptions"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\bamah\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="469256bb-8249-4da8-aabb-8509988d4e68" reportId="HBCDawsonvillePrayerApp/qodana/2024-09-28" />
@@ -77,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bamah\PycharmProjects\HBCDawsonvillePrayerApp\HBCdWebApp\prayer" />
       <recent name="C:\Users\bamah\PycharmProjects\HBCDawsonvillePrayerApp\HBCdWebApp\static\img" />
     </key>
   </component>
@@ -88,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Run App">
+  <component name="RunManager" selected="Python.Run Tests">
     <configuration name="Make Migrations" type="PythonConfigurationType" factoryName="Python">
       <module name="HBCDawsonvillePrayerApp" />
       <option name="ENV_FILES" value="" />
@@ -173,7 +176,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HBCdWebApp/manage.py" />
-      <option name="PARAMETERS" value="test HBCdWebApp/" />
+      <option name="PARAMETERS" value="test prayer" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Test Users App" run_configuration_type="PythonConfigurationType" />
+      </method>
+    </configuration>
+    <configuration name="Test Users App" type="PythonConfigurationType" factoryName="Python">
+      <module name="HBCDawsonvillePrayerApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (HBCDawsonvillePrayerApp)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\bamah\PycharmProjects\HBCDawsonvillePrayerApp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HBCdWebApp/manage.py" />
+      <option name="PARAMETERS" value="test users" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -184,6 +212,7 @@
     <list>
       <item itemvalue="Python.Make Migrations" />
       <item itemvalue="Python.Migrate" />
+      <item itemvalue="Python.Test Users App" />
       <item itemvalue="Python.Run Tests" />
       <item itemvalue="Python.Run App" />
     </list>
@@ -532,7 +561,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727754426492</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Added carousel for A/B testing. Added placecholder picture.">
+      <option name="closed" value="true" />
+      <created>1727881578485</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1727881578485</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Disabled the carousel scroll indicators b/c they created a bug that prevented scrolling, use of the modal 'add prayer request' button">
+      <option name="closed" value="true" />
+      <created>1727882945361</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1727882945361</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added placeholder methods for various messaging services.">
+      <option name="closed" value="true" />
+      <created>1727883392644</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1727883392644</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,9 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added requirements.txt file to project." />
-    <MESSAGE value="Added a test for testing." />
-    <MESSAGE value="Removed Pytest based GitHub Actions" />
     <MESSAGE value="Configuration to deploy." />
     <MESSAGE value="Configuration to deploy. Added hosting for Pythonanywhere.com" />
     <MESSAGE value="Added templates path for deployed operation." />
@@ -573,6 +623,9 @@
     <MESSAGE value="Added items to gitignore." />
     <MESSAGE value="Fixed style for home.html, base.html to flex-wrap correctly." />
     <MESSAGE value="Added carousel for A/B testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added carousel for A/B testing." />
+    <MESSAGE value="Added carousel for A/B testing. Added placecholder picture." />
+    <MESSAGE value="Disabled the carousel scroll indicators b/c they created a bug that prevented scrolling, use of the modal 'add prayer request' button" />
+    <MESSAGE value="Added placeholder methods for various messaging services." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added placeholder methods for various messaging services." />
   </component>
 </project>

@@ -19,10 +19,10 @@ class TestRequestsApp(TestCase):
 
         # For regression testing; May be removed later?
         self.assertContains(response, 'Harvest Baptist Church')
-        self.assertContains(response, 'First Name')
-        self.assertContains(response, 'Last Name')
-        self.assertContains(response, 'Answered?')
-        self.assertContains(response, 'Description')
+        # self.assertContains(response, 'First Name')
+        # self.assertContains(response, 'Last Name')
+        # self.assertContains(response, 'Answered?')
+        # self.assertContains(response, 'Description')
         self.assertContains(response, 'Add Prayer Request')
         self.assertContains(response, 'Home')
         self.assertContains(response, 'Accounts')

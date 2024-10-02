@@ -2,7 +2,6 @@
 """
 
 from django.test import TestCase
-from .messaging import add_person_to_message_list
 
 
 class TestMessages(TestCase):
@@ -13,6 +12,6 @@ class TestMessages(TestCase):
         """
         """
 
-    def test_add_person_to_message_list(self):
+    def test_add_person_to_sms_list(self):
         """
         """
