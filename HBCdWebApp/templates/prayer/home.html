@@ -11,9 +11,11 @@
     <h2>You are not <a href="{% url 'login' %}">logged in</a>!</h2>
 {% endif %}
 
-
-
-
+{% for group in request.user.groups.all %}
+    {% if group.name == 'Prayer Group' %}
+        {% with access=True %}
+        {% endwith %}
+        <h2>You're in the Prayer Group!</h2>
 
 <div id="carouselExampleCaptions" class="carousel slide w-75">
 <!--      <div class="carousel-indicators">-->
@@ -56,13 +58,6 @@
     </div>
 
 
-
-
-
-
-
-
-
 <div id="" class="w-100 border border-primary">
 <!--  <div class="d-flex flex-row border border-primary">-->
       <div class="d-flex flex-wrap align-self-baseline">
@@ -83,7 +78,14 @@
         </div>
       </div>
     {% endfor %}
+    {% endif %}
 
+    {% if not access %}
+          <div class="container">
+              <h2 class="">You are not yet approved as a member of the prayer group. Please contact the administrator for access.</h2>
+          </div>
+    {% endif %}
+{% endfor %}
 {% endblock %}
 
 {% block form_modal %}
