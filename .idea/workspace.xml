@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Fixed tests re: failing imports.">
+    <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added Prayer Group membership as requirement for data access.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -594,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727884234725</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Added Prayer Group membership as requirement for data access.">
+      <option name="closed" value="true" />
+      <created>1727886797296</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1727886797296</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,7 +619,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Configuration to deploy. Added hosting for Pythonanywhere.com" />
     <MESSAGE value="Added templates path for deployed operation." />
     <MESSAGE value="Added table to home page to display requests." />
     <MESSAGE value="Added users app, signin and logout pages, forms, and urls." />
@@ -635,6 +643,7 @@
     <MESSAGE value="Disabled the carousel scroll indicators b/c they created a bug that prevented scrolling, use of the modal 'add prayer request' button" />
     <MESSAGE value="Added placeholder methods for various messaging services." />
     <MESSAGE value="Fixed tests re: failing imports." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed tests re: failing imports." />
+    <MESSAGE value="Added Prayer Group membership as requirement for data access." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Prayer Group membership as requirement for data access." />
   </component>
 </project>

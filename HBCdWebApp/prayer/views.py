@@ -4,24 +4,19 @@ from prayer.models import Request
 from django.contrib.auth.models import User, Group
 
 
-def is_member_of(user, group_name: str, user_groups):
-    """
-    :param user The user making the request
-    :param user_groups The groups to which that user belongs.
-    :return: Bool
-
-    Checks to see if the user is a member of the group, e.g. group_name='Prayer Group'
-    """
-    # print(user.groups.filter(name=group_name).exists)
-    # if user.groups.filter(name=group_name.exists()):
-    #     return True
-    # else:
-    #     return False
-
-    if group_name in user_groups:
-        return True
-    else:
-        return False
+# def is_member_of(user, group_name: str, user_groups):
+#     """
+#     :param group_name:
+#     :param user The user making the request
+#     :param user_groups The groups to which that user belongs.
+#     :return: Bool
+#
+#     Checks to see if the user is a member of the group, e.g. group_name='Prayer Group'
+#     """
+#     if group_name in user_groups:
+#         return True
+#     else:
+#         return False
 
 # Create your views here.
 def home(request):
