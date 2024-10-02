@@ -80,12 +80,14 @@
     {% endfor %}
     {% endif %}
 
-    {% if not access %}
+{% endfor %}
+
+      {% if not access %}
           <div class="container">
               <h2 class="">You are not yet approved as a member of the prayer group. Please contact the administrator for access.</h2>
           </div>
     {% endif %}
-{% endfor %}
+
 {% endblock %}
 
 {% block form_modal %}

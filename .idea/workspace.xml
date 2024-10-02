@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0ea732-807f-4e17-915a-914b41af5cd5" name="Changes" comment="Added Prayer Group membership as requirement for data access.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/HBCdWebApp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/test_prayer_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HBCdWebApp/prayer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/prayer/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HBCdWebApp/templates/prayer/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +55,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Make Migrations.executor": "Run",
-    "Python.Migrate.executor": "Run",
-    "Python.Run App.executor": "Run",
-    "Python.Run Tests.executor": "Run",
-    "Python.Test Users App.executor": "Run",
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bamah/PycharmProjects/HBCDawsonvillePrayerApp/HBCdWebApp/manage.py",
-    "settings.editor.selected.configurable": "preferences.toDoOptions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Make Migrations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Migrate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Run App.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Run Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test Users App.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bamah/PycharmProjects/HBCDawsonvillePrayerApp/HBCdWebApp/manage.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\bamah\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="469256bb-8249-4da8-aabb-8509988d4e68" reportId="HBCDawsonvillePrayerApp/qodana/2024-09-28" />
