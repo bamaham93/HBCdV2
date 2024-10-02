@@ -19,7 +19,22 @@ class Message:
         """
         """
         for person in self.to_list:
-            print(person)
+            print(person.email)
+
+    def send_sms_messages(self):
+        """
+        :return:
+        """
+
+    def send_whatsapp_messages(self):
+        """
+        :return:
+        """
+
+    def send_email_messages(self):
+        """
+        :return:
+        """
 
     def add_person_to_message_list(self, first_name: str, last_name: str, cell_number: str, services: set):
         """
